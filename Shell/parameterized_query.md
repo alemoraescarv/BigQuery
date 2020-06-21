@@ -14,3 +14,4 @@ timediff= $(bq query --use_legacy_sql=false
 echo $timediff
 ```
 
+`--format=csv` can also be sued to change the output format.
