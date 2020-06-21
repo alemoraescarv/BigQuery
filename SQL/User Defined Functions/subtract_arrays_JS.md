@@ -1,6 +1,6 @@
 ### UDF JavaScript
 
-Subtract arrays.
+Subtract two arrays.
 
 ```sql
 CREATE TEMP FUNCTION
