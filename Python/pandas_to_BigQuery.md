@@ -5,8 +5,9 @@
 Before running this Python script from the terminal, make sure the environment is properly set: 
 
 ```
-pip install --upgrafe google-cloud-bigquery
-pip install --upgrafe google-cloud-bigquery[pandas]
+pip install --upgrade google-cloud-bigquery
+pip install --upgrade google-cloud-bigquery[pandas]
+pip install --upgrade pandas_gbq
 ```
 One of the ways of using `to_gbq` method is below,
 
