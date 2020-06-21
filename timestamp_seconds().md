@@ -1,6 +1,6 @@
 ### TIMESTAMP_SECONDS()
 
-This function converts seconds to DATETIME format. This syntax is below:\
+This function converts seconds to DATETIME format. This syntax is below:
 
 
 ```sql
