@@ -1,4 +1,4 @@
-###Creating Time inegstioned partitioned table.
+### Creating Time inegstioned partitioned table.
 
 In the below script, a time inegstion partitioned table is create using Shell. Also, it is valid to point that the data is being copied from the `bigquery-public-data.usa_names.usa_1910_current` public dataset. 
 
