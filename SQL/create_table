@@ -1,0 +1,12 @@
+### Create table
+
+[Documentation.](https://cloud.google.com/bigquery/docs/tables#console_1)
+
+Syntax, 
+
+```sql
+CREATE TABLE `project_id.dataset.new_table` AS 
+SELECT field1, field2 #select the columns you want
+FROM `project_id.dataset.source_table`
+WHERE  field = "string"
+   ```
