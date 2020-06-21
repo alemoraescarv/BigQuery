@@ -9,6 +9,8 @@ pip install --upgrade google-cloud-bigquery
 pip install --upgrade google-cloud-bigquery[pandas]
 pip install --upgrade pandas_gbq
 ```
+
+The module (pandas_gbq) is necessary because it is not included in the google-bigquery[pandas] package.
 One of the ways of using `to_gbq` method is below,
 
 ```python
@@ -26,4 +28,3 @@ df = pd.DataFrame(
 
 df.to_gbq(destination_table='data_frame.data_set', project_id='project_id', if_exists='replace')
 ```
-
