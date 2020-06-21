@@ -1,3 +1,5 @@
+### Converting table schema to JSON
+
 You can get convert your table schema to json simply using the [schema_to_json()][1] method. It needs two attributes, *schema_list* and *destination*, respectively. 
 
 I exemplified your case using a public dataset with nested data and used [StringIO()][2] just to show how the schema will be.
